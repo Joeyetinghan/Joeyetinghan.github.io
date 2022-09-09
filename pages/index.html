@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../site.css" />
+  <title> Joe Ye </title>
+</head>
+
+<body>
+
+  <header>
+    <h1> Joe Ye </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="publication.html"> Publications</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <h2> About Me </h2>
+    <!-- Fill in about me contents below, each paragraph should be in one 
+      <p> element-->
+    <div>
+      <div>
+        <img src="../documents/joe_profile_pic.jpeg" alt="Profile Picture" id="profile_pic">
+      </div>
+      <p>
+        With the numerical representation of graphs that we’ve constructed above 
+        (with vectors instead of scalars), we are now ready to build a GNN. 
+        We will start with the simplest GNN architecture, one where we learn 
+        new embeddings for all graph attributes (nodes, edges, global), but 
+        where we do not yet use the connectivity of the graph. This GNN uses a 
+        separate multilayer perceptron (MLP) (or your favorite differentiable 
+        model) on each component of a graph; we call this a GNN layer. For each 
+        node vector, we apply the MLP and get back a learned node-vector. We do 
+        the same for each edge, learning a per-edge embedding, and also for the 
+        global-context vector, learning a single embedding for the entire graph.
+      </p>
+    </div>
+    <p>
+      Because a GNN does not update the connectivity of the input graph, we can 
+      describe the output graph of a GNN with the same adjacency list and the 
+      same number of feature vectors as the input graph. But, the output graph 
+      has updated embeddings, since the GNN has updated each of the node, edge 
+      and global-context representations.
+    </p>
+    <p>
+      We could make more sophisticated predictions by using pooling within the 
+      GNN layer, in order to make our learned embeddings aware of graph 
+      connectivity. We can do this using message passing, where neighboring 
+      nodes or edges exchange information and influence each other’s updated 
+      embeddings.
+    </p>
+
+
+    <h2> Contact Me </h2>
+    <p>
+      Email: <a href = "mailto: ty357@cornell.edu">ty357@cornell.edu</a>
+    </p>
+
+  </main>
+
+  <footer>
+    <p> All content copyright &copy; 2022 </p>
+  </footer>
+
+
+</body>
+
+</html>
