@@ -15,7 +15,7 @@
     <nav>
       <ul>
         <li><a href="index.html"> Home </a></li>
-        <li><a href="publication.html"> Publications</a> </li>
+        <li><a href="contact.html"> Contact Me</a> </li>
       </ul>
     </nav>
   </header>
@@ -30,33 +30,73 @@
         <img src="joe_profile_pic.jpeg" alt="Profile Picture" id="profile_pic" style="width:300px;height:300px;">
       </div>
       <p>
-        With the numerical representation of graphs that we’ve constructed above 
-        (with vectors instead of scalars), we are now ready to build a GNN. 
-        We will start with the simplest GNN architecture, one where we learn 
-        new embeddings for all graph attributes (nodes, edges, global), but 
-        where we do not yet use the connectivity of the graph. This GNN uses a 
-        separate multilayer perceptron (MLP) (or your favorite differentiable 
-        model) on each component of a graph; we call this a GNN layer. For each 
-        node vector, we apply the MLP and get back a learned node-vector. We do 
-        the same for each edge, learning a per-edge embedding, and also for the 
-        global-context vector, learning a single embedding for the entire graph.
+        I am a senior majoring in Operations Research and Engineering at Cornell.
+        Planning to pursue a Ph.D. in Operations Research-related fields, I am 
+        passionate about applying optimization and simulation methods to inform
+        decision-makings that benefit the society.
+      </p>
+      <p>
+        A recent version of my CV can be found <a href = Tinghan_Ye_CV.pdf> here> </a>
       </p>
     </div>
-    <p>
-      Because a GNN does not update the connectivity of the input graph, we can 
-      describe the output graph of a GNN with the same adjacency list and the 
-      same number of feature vectors as the input graph. But, the output graph 
-      has updated embeddings, since the GNN has updated each of the node, edge 
-      and global-context representations.
-    </p>
-    <p>
-      We could make more sophisticated predictions by using pooling within the 
-      GNN layer, in order to make our learned embeddings aware of graph 
-      connectivity. We can do this using message passing, where neighboring 
-      nodes or edges exchange information and influence each other’s updated 
-      embeddings.
-    </p>
 
+      <h2> Publications & Manuscripts</h2>
+      <!-- Fill in the content below-->
+      <div class="paper">
+        <h3>Managed Residential Electric Vehicle Charging Minimizes Electricity Bills while Meeting Driver and Community Preferences</h3>
+        <p>Tinghan Ye, Shanshan Liu, Eleftheria Kontou</p>
+        <p> Under Review at <em>Transport Policy</em> [<a href="http://ssrn.com/abstract=4146797">link</a>]</p>
+      </div>
+      <div class="paper">
+        <h3>Understanding College Students' Motivation to Take COVID-19 Vaccination Shots
+          from College Subreddit Comment</h3>
+        <p>Tinghan Ye</p>
+        <p>Working paper</p>
+      </div>
+      <div class="paper">
+        <h3>Regional Disparities of Electric Vehicle Marginal Emissions - Evidence from China Market</h3>
+        <p>Tinghan Ye and Hanyi Wang</p>
+        <p>Journal of Advanced Management Science, Vol. 10, No. 2, pp. 36-43, June 2022. [<a href="http://www.joams.com/index.php?m=content&c=index&a=show&catid=91&id=556">link</a>]</p>
+      </div>
+  
+      <h2> Posters </h2>
+      <!-- Fill in about me contents below, each paragraph should be in one 
+        <p> element-->
+      <div class="paper">
+        <h3>Taxi Routing Optimization</h3>
+        <p> Tinghan Ye and David Shmoys</p>
+        <p> To be presented at INFORMS Annual Meeting, Oct. 2022.</p>
+        <p>
+          A taxi routing problem can be solved via bipartite matching, where a maximum cardinality matching 
+          corresponds to the minimum number of taxis needed to cover all trips. We proved a min-max theorem:
+          the maximum number of pairwise incompatible trips equals the minimum number of taxis needed. We also
+          demonstrate on an NYC taxi dataset and obtain 35% reduction in total number of taxis needed.
+          Part of my computational work is integrated into a 
+          <a href="https://github.com/engri-1101/textbook/tree/master/labs/bipartite_matching"> lab</a> 
+          of ENGRI 1101-Engineering Applications of OR.
+        </p>
+      </div>
+      <div class="paper">
+        <h3>Project Title</h3>
+        <p>
+          (Description of the project)With the numerical representation of graphs that we’ve constructed above 
+          (with vectors instead of scalars), we are now ready to build a GNN. 
+          We will start with the simplest GNN architecture, one where we learn 
+          new embeddings for all graph attributes (nodes, edges, global), but 
+          where we do not yet use the connectivity of the graph. 
+        </p>
+      </div>
+      <div class="paper">
+        <h3>Project Title</h3>
+        <p>
+          (Description of the project)With the numerical representation of graphs that we’ve constructed above 
+          (with vectors instead of scalars), we are now ready to build a GNN. 
+          We will start with the simplest GNN architecture, one where we learn 
+          new embeddings for all graph attributes (nodes, edges, global), but 
+          where we do not yet use the connectivity of the graph. 
+        </p>
+      </div>
+  
 
     <h2> Contact Me </h2>
     <p>
