@@ -44,6 +44,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: "1.21"
+          cache: false # go.sum is gitignored; skip module cache to avoid a noisy warning
       - name: Checkout
         uses: actions/checkout@v4
         with:
