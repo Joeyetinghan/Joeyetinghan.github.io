@@ -6,8 +6,8 @@ authors:
   - 'Changkun Guan'
   - 'Beste Basciftci'
   - 'Pascal Van Hentenryck'
-date: '2025-11-28T00:00:00Z'
-publishDate: '2025-11-28T00:00:00Z'
+date: '2026-06-24T00:00:00Z'
+publishDate: '2026-06-24T00:00:00Z'
 publication_types: ['3']
 publication: 'Working paper'
 publication_short: 'Working paper'
@@ -15,7 +15,7 @@ abstract: ''
 summary: 'Deep learning-driven contextual stochastic optimization for real-time order fulfillment.'
 tags: []
 featured: false
-url_pdf: 'https://openreview.net/pdf?id=uhF4sYW6Nd'
+url_pdf: 'https://arxiv.org/abs/2606.25362'
 url_code: ''
 url_dataset: ''
 url_poster: ''
