@@ -9,8 +9,8 @@ authors:
 date: '2026-06-24T00:00:00Z'
 publishDate: '2026-06-24T00:00:00Z'
 publication_types: ['3']
-publication: 'Working paper'
-publication_short: 'Working paper'
+publication: 'arXiv preprint'
+publication_short: 'arXiv'
 abstract: ''
 summary: 'Learning optimization proxies for sequential contextual stochastic programs, applied to real-time order fulfillment.'
 tags: []
