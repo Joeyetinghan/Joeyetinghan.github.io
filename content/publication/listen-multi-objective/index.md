@@ -11,8 +11,8 @@ authors:
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
-date: '2026-01-01T00:00:00Z'
-publishDate: '2026-01-01T00:00:00Z'
+date: '2026-01-02T00:00:00Z'
+publishDate: '2026-01-02T00:00:00Z'
 publication_types: ['1']
 publication: '35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)'
 publication_short: 'IJCAI-ECAI 2026'
