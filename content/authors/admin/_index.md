@@ -85,6 +85,4 @@ My research interests lie at the intersection of optimization and machine learni
 
 Most recently, I have expanded my research to explore the intersection of Large Language Models (LLMs) and Operations Research for decision support systems.
 
-**Collaboration.** I welcome messages from students, researchers, and practitioners with similar interests. Depending on fit and availability, I may be open to research collaboration, especially with undergraduate students seeking informal mentorship. Most student opportunities are unpaid unless formal funding or course credit is available through official channels. Feel free to reach out if there may be a good fit.
-
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.

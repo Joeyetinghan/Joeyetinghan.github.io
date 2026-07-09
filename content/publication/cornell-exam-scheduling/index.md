@@ -6,8 +6,8 @@ authors:
   - 'Willem van Osselaer'
   - 'Qihan Zhu'
   - 'David B. Shmoys'
-date: '2025-11-05T00:00:00Z'
-publishDate: '2025-11-05T00:00:00Z'
+date: '2025-09-30T00:00:00Z'
+publishDate: '2025-09-30T00:00:00Z'
 publication_types: ['2']
 publication: 'INFORMS Journal on Applied Analytics'
 publication_short: 'INFORMS Journal on Applied Analytics'
