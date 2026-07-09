@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/Joeyetinghan/starter-hugo-portfolio-theme'
+    url: 'https://github.com/Joeyetinghan/Joeyetinghan.github.io'
     content_dir: content
     branch: main
   avatar:
