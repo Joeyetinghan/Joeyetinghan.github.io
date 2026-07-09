@@ -14,12 +14,12 @@ organizations:
     # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D. student at Georgia Tech ISyE, researching ML/LLM + optimization.
+bio: Ph.D. student at Georgia Tech ISyE working on optimization, machine learning, and AI-assisted decision support.
 
 # Interests to show in About widget
 interests:
   - Optimization
-  - Machine Learning 
+  - Machine Learning
   - Supply Chain
   - Transportation
 
@@ -74,15 +74,15 @@ email: 'joe.ye@gatech.edu'
 highlight_name: true
 ---
 
-I am a third-year Ph.D. student in Industrial Engineering at Georgia Tech ISyE, where I am advised by Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/). 
+I am a Ph.D. student at Georgia Tech ISyE, where I am advised by Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/).
 Prior to joining Georgia Tech, I received my B.S. in Operations Research and Engineering at Cornell University. I was fortunate to work with Profs. [David Shmoys](https://people.orie.cornell.edu/shmoys/), [Shane Henderson](https://www.orie.cornell.edu/faculty-directory/shane-g-henderson), and [David Goldberg](https://www.engineering.cornell.edu/faculty-directory/david-alan-goldberg) at Cornell, as well as Prof. [Eleftheria Kontou](https://publish.illinois.edu/kontou/) at UIUC.
 
-My research interests lie at the intersection of optimization and machine learning, with a particular focus on applications that drive real-world impact in logistics and transportation. My work focuses on *Large-Scale Decision-Making Under Uncertainty* across two primary directions:
+My research develops optimization methods for large-scale operational decisions under uncertainty, primarily in logistics and transportation. A central question in my work is how machine learning can make these models faster and more reliable, so that they can be used in practice.
 
-- **Learning to Accelerate Optimization:** Leveraging machine learning to speed up large-scale solvers through ML-guided heuristics and end-to-end learning using “optimization proxies”.
+- **Learning-augmented optimization:** using machine learning to accelerate large-scale solvers, including ML-guided heuristics, graph neural networks, and optimization proxies trained end to end.
 
-- **Contextual Optimization:** Utilizing contextual information to improve optimization outcomes via contextual stochastic optimization, decision-focused learning, and conformal prediction.
+- **Contextual decision-making under uncertainty:** incorporating covariates and forecasts into operational decisions, through contextual stochastic optimization, decision-focused learning, and conformal prediction.
 
-Most recently, I have expanded my research to explore the intersection of Large Language Models (LLMs) and Operations Research for decision support systems.
+- **AI for operations research:** LLM-based tools that support the formulation, re-optimization, and analysis of optimization models.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.
