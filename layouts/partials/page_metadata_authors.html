@@ -1,24 +1,36 @@
-{{/* Display author list with a local highlight override for Tinghan Ye. */}}
+{{/* Display author list with a local highlight override for Tinghan Ye.
+     Long author lists (more than 10) are abbreviated to the first three
+     authors, Tinghan Ye, and the last author. */}}
 
 {{- $taxonomy := "authors" -}}
 {{- if .Param $taxonomy -}}
-  {{- range $index, $value := (.GetTerms $taxonomy) -}}
+  {{- $terms := .GetTerms $taxonomy -}}
+  {{- $n := len $terms -}}
+  {{- $truncate := gt $n 10 -}}
+  {{- $prev := -1 -}}
+  {{- range $index, $value := $terms -}}
     {{- $highlight_name := .Page.Params.highlight_name | default false -}}
     {{- $display_name := .LinkTitle -}}
     {{- $highlight_local_name := or (eq $display_name "Tinghan Ye") (eq $display_name "Tinghan (Joe) Ye") -}}
+    {{- $show := or (not $truncate) (lt $index 3) $highlight_local_name (eq $index (sub $n 1)) -}}
 
-    {{- if gt $index 0 }}, {{ end -}}
-    <span {{ if or $highlight_name $highlight_local_name }}class="author-highlighted"{{end}}>
-      {{- if .RelPermalink -}}
-        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
-      {{- else -}}
-        {{ .LinkTitle }}
+    {{- if $show -}}
+      {{- if gt $index 0 -}}
+        {{- if gt $index (add $prev 1) }}, &hellip;, {{ else }}, {{ end -}}
       {{- end -}}
-    </span>
-    {{- if isset $.Params "author_notes" -}}
-      {{- with (index $.Params.author_notes $index) -}}
-        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+      <span {{ if or $highlight_name $highlight_local_name }}class="author-highlighted"{{end}}>
+        {{- if .RelPermalink -}}
+          <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+        {{- else -}}
+          {{ .LinkTitle }}
+        {{- end -}}
+      </span>
+      {{- if isset $.Params "author_notes" -}}
+        {{- with (index $.Params.author_notes $index) -}}
+          <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+        {{- end -}}
       {{- end -}}
+      {{- $prev = $index -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
