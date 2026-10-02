@@ -12,7 +12,7 @@ publication_short: 'International Conference on Computational Logistics'
 abstract: ''
 summary: 'Accurate estimation of order fulfillment time under uncertainty for e-commerce logistics.'
 tags: []
-featured: true
+featured: false
 url_pdf: 'https://arxiv.org/abs/2505.17340'
 url_code: ''
 url_dataset: ''

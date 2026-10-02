@@ -13,6 +13,12 @@ main:
   - name: Awards
     url: '/awards/'
     weight: 30
+  - name: Teaching
+    url: '/teaching/'
+    weight: 35
+  - name: CV
+    url: '/uploads/Tinghan_Ye_CV.pdf'
+    weight: 38
   - name: Contact
     url: '/#contact'
     weight: 40

@@ -11,7 +11,7 @@ publication_short: 'Operations Research Letters'
 abstract: ''
 summary: 'Matching-based analysis of the minimum fleet-size problem.'
 tags: []
-featured: true
+featured: false
 url_pdf: 'https://doi.org/10.1016/j.orl.2023.03.013'
 url_code: ''
 url_dataset: ''

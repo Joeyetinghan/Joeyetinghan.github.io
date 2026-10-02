@@ -14,6 +14,7 @@ abstract: ''
 summary: 'Joint rider trip planning and crew scheduling for complex paratransit operations.'
 tags: []
 featured: true
+weight: 2
 url_pdf: 'https://doi.org/10.1016/j.tre.2025.104281'
 url_code: ''
 url_dataset: ''

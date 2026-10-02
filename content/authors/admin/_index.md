@@ -6,7 +6,7 @@ title: Tinghan (Joe) Ye
 superuser: true
 
 # Role/position/tagline
-# role: Professor of Artificial Intelligence
+role: Ph.D. Student in Industrial Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,14 +14,15 @@ organizations:
     # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D. student at Georgia Tech ISyE working on optimization, machine learning, and AI-assisted decision support.
+bio: Ph.D. student at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and LLM-assisted decision systems.
 
 # Interests to show in About widget
 interests:
-  - Optimization
-  - Machine Learning
-  - Supply Chain
-  - Transportation
+  - Contextual Optimization
+  - Decision-Focused Learning
+  - Sequential Decision-Making
+  - LLM-Assisted Decision Systems
+  - Logistics and Transportation
 
 # Education to show in About widget
 education:
@@ -63,9 +64,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: /uploads/Tinghan_Ye_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'joe.ye@gatech.edu'

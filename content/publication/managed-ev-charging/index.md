@@ -12,7 +12,7 @@ publication_short: 'Transport Policy'
 abstract: ''
 summary: 'Residential EV charging optimization under household and grid preferences.'
 tags: []
-featured: true
+featured: false
 url_pdf: 'https://doi.org/10.1016/j.tranpol.2024.01.022'
 url_code: ''
 url_dataset: ''

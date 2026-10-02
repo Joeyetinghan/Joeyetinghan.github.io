@@ -14,7 +14,8 @@ publication_short: 'Preliminary version to appear in NeurIPS 2026 ML×OR Worksho
 abstract: ''
 summary: 'LLM-guided model patches and a re-optimization toolbox for adapting deployed large-scale optimization models.'
 tags: []
-featured: false
+featured: true
+weight: 4
 url_pdf: 'https://arxiv.org/abs/2605.18692'
 url_code: ''
 url_dataset: ''

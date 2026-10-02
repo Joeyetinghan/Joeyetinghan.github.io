@@ -1,16 +1,16 @@
 ---
 widget: pages
 headless: true
-active: false
+active: true
 weight: 20
-title: Publications
+title: Selected Publications
 content:
   page_type: publication
-  count: 6
+  count: 5
   archive:
     enable: true
     text: See all publications
-    link: publication/
+    link: research/
   filters:
     author: ''
     category: ''
@@ -20,8 +20,8 @@ content:
     exclude_future: false
     exclude_past: false
     publication_type: ''
-  sort_by: 'Date'
-  sort_ascending: false
+  sort_by: 'Weight'
+  sort_ascending: true
 design:
   view: 4
 ---

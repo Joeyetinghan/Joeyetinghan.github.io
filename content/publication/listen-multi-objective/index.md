@@ -19,7 +19,8 @@ publication_short: 'IJCAI-ECAI 2026'
 abstract: ''
 summary: 'An LLM-powered decision aid that captures qualitative preferences for multi-objective selection.'
 tags: []
-featured: false
+featured: true
+weight: 3
 url_pdf: 'https://arxiv.org/abs/2510.25799'
 url_code: ''
 url_dataset: ''
