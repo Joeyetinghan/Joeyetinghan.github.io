@@ -9,8 +9,8 @@ authors:
 date: '2026-06-24T00:00:00Z'
 publishDate: '2026-06-24T00:00:00Z'
 publication_types: ['3']
-publication: 'Preliminary version appeared in NeurIPS 2025 ML×OR Workshop'
-publication_short: 'Preliminary version appeared in NeurIPS 2025 ML×OR Workshop'
+publication: 'Major revision at Manufacturing & Service Operations Management; preliminary version appeared in NeurIPS 2025 ML×OR Workshop'
+publication_short: 'Major revision at M&SOM'
 abstract: ''
 summary: 'Learning optimization proxies for sequential contextual stochastic programs, applied to real-time order fulfillment.'
 tags: []

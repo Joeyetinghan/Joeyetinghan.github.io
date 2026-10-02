@@ -9,8 +9,8 @@ authors:
 date: '2026-05-27T00:00:00Z'
 publishDate: '2026-05-27T00:00:00Z'
 publication_types: ['3']
-publication: 'arXiv preprint'
-publication_short: 'arXiv'
+publication: 'Preliminary version to appear in NeurIPS 2026 ML×OR Workshop'
+publication_short: 'Preliminary version to appear in NeurIPS 2026 ML×OR Workshop'
 abstract: ''
 summary: 'LLM-guided model patches and a re-optimization toolbox for adapting deployed large-scale optimization models.'
 tags: []
