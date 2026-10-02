@@ -17,7 +17,7 @@ main:
     url: '/teaching/'
     weight: 35
   - name: CV
-    url: '/uploads/Tinghan_Ye_CV.pdf'
+    url: 'https://joeyetinghan.github.io/uploads/Tinghan_Ye_CV.pdf'
     weight: 38
   - name: Contact
     url: '/#contact'
