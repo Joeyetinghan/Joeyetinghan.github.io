@@ -6,7 +6,7 @@ title: Tinghan (Joe) Ye
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student in Industrial Engineering
+role: Ph.D. Candidate in Industrial Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,7 +14,7 @@ organizations:
     # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D. student at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and LLM-assisted decision systems.
+bio: Ph.D. candidate at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and LLM-assisted decision systems.
 
 # Interests to show in About widget
 interests:
@@ -75,7 +75,7 @@ email: 'joe.ye@gatech.edu'
 highlight_name: true
 ---
 
-I am a Ph.D. student at Georgia Tech ISyE, where I am advised by Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/).
+I am a Ph.D. candidate at Georgia Tech ISyE, where I am advised by Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/).
 Prior to joining Georgia Tech, I received my B.S. in Operations Research and Engineering at Cornell University. I was fortunate to work with Profs. [David Shmoys](https://people.orie.cornell.edu/shmoys/), [Shane Henderson](https://www.orie.cornell.edu/faculty-directory/shane-g-henderson), and [David Goldberg](https://www.engineering.cornell.edu/faculty-directory/david-alan-goldberg) at Cornell, as well as Prof. [Eleftheria Kontou](https://publish.illinois.edu/kontou/) at UIUC.
 
 My research develops optimization methods for large-scale operational decisions under uncertainty, primarily in logistics and transportation. A central question in my work is how machine learning can make these models faster and more reliable, so that they can be used in practice.
