@@ -9,6 +9,9 @@ header:
 ---
 ### Georgia Institute of Technology
 
+**Primary Instructor**
+- ISYE 3103: Introduction to Supply Chain Modeling: Logistics (undergraduate). Spring 2027
+
 **Graduate Student Instructor**
 - ISYE 3133: Engineering Optimization (undergraduate). Fall 2026
 

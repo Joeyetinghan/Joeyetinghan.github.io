@@ -19,6 +19,7 @@ abstract: ''
 summary: 'A training-free planning and verification paradigm for efficient parallel decoding in diffusion language models.'
 tags: []
 featured: false
+weight: 3
 url_pdf: 'https://arxiv.org/abs/2601.12247'
 url_code: 'https://github.com/Joeyetinghan/pvf'
 url_dataset: ''

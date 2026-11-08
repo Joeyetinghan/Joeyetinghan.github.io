@@ -6,10 +6,10 @@ weight: 20
 title: Selected Publications
 content:
   page_type: publication
-  count: 5
+  count: 7
   archive:
     enable: true
-    text: See all publications
+    text: See all research
     link: research/
   filters:
     author: ''
@@ -20,7 +20,7 @@ content:
     exclude_future: false
     exclude_past: false
     publication_type: ''
-  sort_by: 'Weight'
+  sort_by: 'Params.home_weight'
   sort_ascending: true
 design:
   view: 4

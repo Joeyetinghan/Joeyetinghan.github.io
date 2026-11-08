@@ -13,6 +13,7 @@ abstract: ''
 summary: 'A Hawkes-process-guided framework for semantic uncertainty propagation in agentic text simulation.'
 tags: []
 featured: false
+weight: 4
 url_pdf: 'https://arxiv.org/abs/2605.23043'
 url_code: ''
 url_dataset: ''

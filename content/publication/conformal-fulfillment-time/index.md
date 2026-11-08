@@ -13,6 +13,7 @@ abstract: ''
 summary: 'Accurate estimation of order fulfillment time under uncertainty for e-commerce logistics.'
 tags: []
 featured: false
+weight: 5
 url_pdf: 'https://arxiv.org/abs/2505.17340'
 url_code: ''
 url_dataset: ''
@@ -40,3 +41,5 @@ the proposed methods generate competitive distributional forecasts, while
 machine learning-based point predictions significantly outperform the existing
 rule-based system, achieving up to 14% higher prediction accuracy and up to
 75% improvement in identifying late deliveries.
+
+An extended journal version, [Conformal Predictive Distributions for Contextual Order Fulfillment Optimization](/publication/conformal-contextual-fulfillment/), is under review at Transportation Research Part E.

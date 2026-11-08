@@ -15,6 +15,7 @@ abstract: ''
 summary: 'Integer programming models for practical university exam scheduling.'
 tags: []
 featured: false
+weight: 3
 url_pdf: 'https://pubsonline.informs.org/doi/abs/10.1287/inte.2024.0165'
 url_code: 'https://github.com/Joeyetinghan/exam-scheduling-mip-generator'
 url_dataset: ''

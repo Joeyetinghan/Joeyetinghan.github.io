@@ -20,7 +20,8 @@ abstract: ''
 summary: 'An LLM-powered decision aid that captures qualitative preferences for multi-objective selection.'
 tags: []
 featured: true
-weight: 3
+weight: 2
+home_weight: 7
 url_pdf: 'https://arxiv.org/abs/2510.25799'
 url_code: ''
 url_dataset: ''

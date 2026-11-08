@@ -17,6 +17,7 @@ abstract: ''
 summary: 'Statistical tests showing that cardinal LLM preference judgments cannot be summarized by a single utility function.'
 tags: []
 featured: false
+weight: 3
 url_pdf: 'https://arxiv.org/abs/2608.17644'
 url_code: ''
 url_dataset: ''

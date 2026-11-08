@@ -6,6 +6,7 @@ authors:
   - 'Changkun Guan'
   - 'Beste Basciftci'
   - 'Pascal Van Hentenryck'
+under_review: true
 date: '2026-06-24T00:00:00Z'
 publishDate: '2026-06-24T00:00:00Z'
 publication_types: ['3']
@@ -14,7 +15,9 @@ publication_short: 'Major revision at M&SOM'
 abstract: ''
 summary: 'Learning optimization proxies for sequential contextual stochastic programs, applied to real-time order fulfillment.'
 tags: []
-featured: false
+featured: true
+weight: 1
+home_weight: 2
 url_pdf: 'https://arxiv.org/abs/2606.25362'
 url_code: 'https://github.com/Joeyetinghan/contextual-fulfillment-proxy'
 url_dataset: ''

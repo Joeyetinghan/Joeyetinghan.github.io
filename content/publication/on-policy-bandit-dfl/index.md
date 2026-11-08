@@ -11,13 +11,14 @@ author_notes:
 date: '2026-05-31T00:00:00Z'
 publishDate: '2026-05-31T00:00:00Z'
 publication_types: ['3']
-publication: 'arXiv preprint'
-publication_short: 'arXiv'
+publication: 'Submitted to ICLR 2027'
+publication_short: 'Submitted to ICLR 2027'
 abstract: ''
 summary: 'Decision-focused on-policy learning for sequential contextual linear optimization under partial feedback.'
 tags: []
 featured: true
-weight: 5
+weight: 2
+home_weight: 6
 url_pdf: 'https://arxiv.org/abs/2606.01081'
 url_code: 'https://github.com/Joeyetinghan/on-policy-bandit-dfl'
 url_dataset: ''

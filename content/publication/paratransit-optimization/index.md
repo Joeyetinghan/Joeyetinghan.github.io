@@ -14,6 +14,7 @@ abstract: ''
 summary: 'Constraint programming case study for paratransit operations in Savannah, Georgia.'
 tags: []
 featured: false
+weight: 4
 url_pdf: 'https://arxiv.org/abs/2508.00241'
 url_code: ''
 url_dataset: ''

@@ -15,6 +15,7 @@ abstract: ''
 summary: 'Open-source simulation optimization problems and solver benchmarks with new support for linearly constrained settings.'
 tags: []
 featured: false
+weight: 6
 url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10838622/?casa_token=_pEgKu-KXWUAAAAA:UN1McFZl1XC02N36pyni9QMDVp2K1-UoHb1nsRYEXr-u4ExKwbrmCj6Q2X9t2NFrr6WKQGaR5g'
 url_code: 'https://github.com/simopt-admin/simopt/wiki'
 url_dataset: ''

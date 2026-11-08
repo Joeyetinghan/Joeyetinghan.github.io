@@ -3,14 +3,24 @@
 {{ $publication_pages := where site.RegularPages "Section" "publication" }}
 {{ $journal_pages := where $publication_pages "Params.publication_types" "intersect" (slice "2") }}
 {{ $conference_pages := where $publication_pages "Params.publication_types" "intersect" (slice "1") }}
-{{ $preprint_pages := where $publication_pages "Params.publication_types" "intersect" (slice "3") }}
+{{ $type3_pages := where $publication_pages "Params.publication_types" "intersect" (slice "3") }}
+{{ $under_review_pages := where $type3_pages "Params.under_review" true }}
+{{ $preprint_pages := where $type3_pages "Params.under_review" "!=" true }}
 
 <div class="universal-wrapper pt-3">
   <div class="article-style mt-5">
     <h2>Journal Articles</h2>
   </div>
 
-  {{ range $index, $item := $journal_pages.ByDate.Reverse }}
+  {{ range $index, $item := $journal_pages.ByWeight }}
+  {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
+  {{ end }}
+
+  <div class="article-style mt-5">
+    <h2>Journal Papers Under Review</h2>
+  </div>
+
+  {{ range $index, $item := $under_review_pages.ByWeight }}
   {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
   {{ end }}
 
@@ -18,15 +28,15 @@
     <h2>Conference Papers</h2>
   </div>
 
-  {{ range $index, $item := $conference_pages.ByDate.Reverse }}
+  {{ range $index, $item := $conference_pages.ByWeight }}
   {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
   {{ end }}
 
   <div class="article-style mt-5">
-    <h2>Working Papers</h2>
+    <h2>Working Papers & Preprints</h2>
   </div>
 
-  {{ range $index, $item := $preprint_pages.ByDate.Reverse }}
+  {{ range $index, $item := $preprint_pages.ByWeight }}
   {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
   {{ end }}
 </div>

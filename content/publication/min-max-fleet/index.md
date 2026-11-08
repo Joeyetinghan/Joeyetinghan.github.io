@@ -12,6 +12,7 @@ abstract: ''
 summary: 'Matching-based analysis of the minimum fleet-size problem.'
 tags: []
 featured: false
+weight: 5
 url_pdf: 'https://doi.org/10.1016/j.orl.2023.03.013'
 url_code: ''
 url_dataset: ''

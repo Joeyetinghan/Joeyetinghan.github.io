@@ -6,16 +6,18 @@ authors:
   - 'Ved Mohan'
   - 'El Mehdi Er Raqabi'
   - 'Pascal Van Hentenryck'
+under_review: true
 date: '2026-05-27T00:00:00Z'
 publishDate: '2026-05-27T00:00:00Z'
 publication_types: ['3']
-publication: 'Preliminary version to appear in NeurIPS 2026 ML×OR Workshop'
-publication_short: 'Preliminary version to appear in NeurIPS 2026 ML×OR Workshop'
+publication: 'Under review at Management Science; preliminary version in NeurIPS 2026 ML×OR Workshop'
+publication_short: 'Under review at *Management Science*'
 abstract: ''
 summary: 'LLM-guided model patches and a re-optimization toolbox for adapting deployed large-scale optimization models.'
 tags: []
 featured: true
-weight: 4
+weight: 2
+home_weight: 3
 url_pdf: 'https://arxiv.org/abs/2605.18692'
 url_code: ''
 url_dataset: ''
@@ -27,7 +29,9 @@ url_video: ''
 slides: ''
 ---
 
-This preprint introduces an agentic re-optimization framework in which an
+Preliminary version in the NeurIPS 2026 ML×OR Workshop.
+
+This paper introduces an agentic re-optimization framework in which an
 LLM translates user requests into structured optimization model patches,
 selects re-optimization tools, and solves updated instances.
 

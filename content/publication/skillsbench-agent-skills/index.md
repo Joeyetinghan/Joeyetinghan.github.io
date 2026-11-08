@@ -88,6 +88,7 @@ abstract: ''
 summary: 'A benchmark that measures whether curated Agent Skills improve LLM agents across diverse tasks.'
 tags: []
 featured: false
+weight: 1
 url_pdf: 'https://arxiv.org/abs/2602.12670'
 url_code: 'https://github.com/benchflow-ai/skillsbench'
 url_dataset: ''
