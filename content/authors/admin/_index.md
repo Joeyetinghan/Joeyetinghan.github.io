@@ -84,6 +84,6 @@ My research develops optimization methods for large-scale operational decisions 
 
 - **Contextual decision-making under uncertainty:** incorporating covariates and forecasts into operational decisions, through contextual stochastic optimization, decision-focused learning, and conformal prediction.
 
-- **AI for operations research:** LLM-based tools that support the formulation, re-optimization, and analysis of optimization models.
+- **Agentic OR:** LLM agents that formulate, re-optimize, and analyze optimization models.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.
