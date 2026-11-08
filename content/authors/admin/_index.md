@@ -84,6 +84,6 @@ My research develops optimization methods for large-scale operational decisions 
 
 - **Contextual decision-making under uncertainty:** integrating data and predictions into operational decisions made under uncertainty.
 
-- **Agentic OR:** LLM agents that turn goals and preferences stated in natural language into optimization models, algorithms, and decisions, so that people without modeling expertise can use optimization.
+- **Agentic OR:** developing LLM-based agents that integrate natural-language understanding, optimization modeling, algorithm discovery, and interactive reasoning to automate and enhance complex decision-making, making advanced optimization accessible beyond modeling experts.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.

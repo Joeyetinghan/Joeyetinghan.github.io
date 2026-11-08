@@ -8,7 +8,7 @@ header:
   image: ''
 ---
 - **Atlanta Air Cargo Association PhD Student Fellowship for Research Excellence in Supply Chain Engineering**. Georgia Tech ISyE. (2025)
-- **Honorable Mention, M&SOM Practice-based Research Competition**. Manufacturing & Service Operations Management. Associated with [Contextual Stochastic Optimization for Omnichannel Multicourier Order Fulfillment under Delivery Time Uncertainty](/publication/contextual-omnichannel/). (2025)
+- **Honorable Mention, Manufacturing & Service Operations Management Practice-based Research Competition**. INFORMS. Associated with [Contextual Stochastic Optimization for Omnichannel Multicourier Order Fulfillment under Delivery Time Uncertainty](/publication/contextual-omnichannel/). (2025)
 - **Byron W. Saunders & Allen H. Mogensen Awards for Outstanding Students**. Cornell ORIE. (2023)
 - **Finalist, Undergraduate Operations Research Prize**. INFORMS. Associated with [Cornell University Uses Integer Programming to Optimize Final Exam Scheduling](/publication/cornell-exam-scheduling/). (2023)
 - **Engineering Learning Initiatives Undergraduate Research Award**. Cornell Engineering. (2022, 2023)

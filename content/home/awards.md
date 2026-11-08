@@ -20,7 +20,7 @@ item:
     description: ''
   - organization: Manufacturing & Service Operations Management
     organization_url: ''
-    title: Honorable Mention, M&SOM Practice-based Research Competition
+    title: Honorable Mention, Manufacturing & Service Operations Management Practice-based Research Competition
     url: '/publication/contextual-omnichannel/'
     certificate_url: ''
     date_start: '2025-01-01'

@@ -48,5 +48,5 @@ practices. It provides a flexible balance between reducing fulfillment costs
 and managing delivery time deviation risks, emphasizing the importance of
 contextual information and distributional forecasts in order fulfillment.
 
-**Recognition:** Honorable Mention, M&SOM Practice-based Research Competition,
+**Recognition:** Honorable Mention, Manufacturing & Service Operations Management Practice-based Research Competition,
 2025.
