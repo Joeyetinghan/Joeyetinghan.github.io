@@ -21,7 +21,7 @@ interests:
   - Contextual Optimization
   - Decision-Focused Learning
   - Sequential Decision-Making
-  - LLM-Assisted Decision Systems
+  - Agentic OR and LLM Agents
   - Logistics and Transportation
 
 # Education to show in About widget
@@ -84,6 +84,8 @@ My research develops optimization methods for large-scale operational decisions 
 
 - **Contextual decision-making under uncertainty:** incorporating covariates and forecasts into operational decisions, through contextual stochastic optimization, decision-focused learning, and conformal prediction.
 
-- **Agentic OR:** LLM agents that formulate, re-optimize, and analyze optimization models.
+- **Agentic OR:** LLM agents that formulate, repair, and re-optimize optimization models and design solution algorithms such as decompositions.
+
+- **Reliable LLM agents for decision-making:** LLMs that act on human preferences in multi-objective selection, and methods to test them, including consistency checks on LLM preference judgments, uncertainty propagation in agent simulations, and benchmarks of agent skills.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.
