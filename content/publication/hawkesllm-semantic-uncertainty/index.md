@@ -7,8 +7,8 @@ authors:
 date: '2026-05-21T00:00:00Z'
 publishDate: '2026-05-21T00:00:00Z'
 publication_types: ['3']
-publication: 'Preliminary version appeared in ICML 2026 Workshop on Statistical Frameworks for Uncertainty in Agentic Systems'
-publication_short: 'Preliminary version appeared in ICML 2026 Workshop on Statistical Frameworks for Uncertainty in Agentic Systems'
+publication: 'ICML 2026 Workshop on Statistical Frameworks for Uncertainty in Agentic Systems'
+publication_short: 'ICML 2026 Workshop'
 abstract: ''
 summary: 'A Hawkes-process-guided framework for semantic uncertainty propagation in agentic text simulation.'
 tags: []

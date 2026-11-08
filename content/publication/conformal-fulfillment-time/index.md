@@ -7,8 +7,8 @@ authors:
 date: '2025-05-22T00:00:00Z'
 publishDate: '2025-05-22T00:00:00Z'
 publication_types: ['1']
-publication: 'International Conference on Computational Logistics'
-publication_short: 'International Conference on Computational Logistics'
+publication: 'International Conference on Computational Logistics (ICCL 2025)'
+publication_short: 'ICCL 2025'
 abstract: ''
 summary: 'Accurate estimation of order fulfillment time under uncertainty for e-commerce logistics.'
 tags: []

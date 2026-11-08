@@ -12,7 +12,7 @@ date: '2026-08-18T00:00:00Z'
 publishDate: '2026-08-18T00:00:00Z'
 publication_types: ['3']
 publication: 'arXiv preprint'
-publication_short: 'arXiv'
+publication_short: 'arXiv preprint'
 abstract: ''
 summary: 'Statistical tests showing that cardinal LLM preference judgments cannot be summarized by a single utility function.'
 tags: []

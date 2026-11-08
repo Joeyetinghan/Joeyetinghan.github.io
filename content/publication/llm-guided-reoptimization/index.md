@@ -11,7 +11,7 @@ date: '2026-05-27T00:00:00Z'
 publishDate: '2026-05-27T00:00:00Z'
 publication_types: ['3']
 publication: 'Under review at Management Science; preliminary version in NeurIPS 2026 ML×OR Workshop'
-publication_short: 'Under review at *Management Science*'
+publication_short: 'Under review at Management Science'
 abstract: ''
 summary: 'LLM-guided model patches and a re-optimization toolbox for adapting deployed large-scale optimization models.'
 tags: []

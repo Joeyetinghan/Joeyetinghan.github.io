@@ -80,12 +80,12 @@ Prior to joining Georgia Tech, I received my B.S. in Operations Research and Eng
 
 My research develops optimization methods for large-scale operational decisions under uncertainty, primarily in logistics and transportation. A central question in my work is how machine learning can make these models faster and more reliable, so that they can be used in practice.
 
-- **Learning-augmented optimization:** using machine learning to accelerate large-scale solvers, including ML-guided heuristics, graph neural networks, and optimization proxies trained end to end.
+- **Learning-augmented optimization:** using machine learning to solve large-scale optimization problems faster.
 
-- **Contextual decision-making under uncertainty:** incorporating covariates and forecasts into operational decisions, through contextual stochastic optimization, decision-focused learning, and conformal prediction.
+- **Contextual decision-making under uncertainty:** integrating data and predictions into operational decisions made under uncertainty.
 
-- **Agentic OR:** LLM agents that formulate, repair, and re-optimize optimization models and design solution algorithms such as decompositions.
+- **Agentic OR:** LLM agents that build, solve, and adapt optimization models.
 
-- **Reliable LLM agents for decision-making:** LLMs that act on human preferences in multi-objective selection, and methods to test them, including consistency checks on LLM preference judgments, uncertainty propagation in agent simulations, and benchmarks of agent skills.
+- **Reliable LLM agents for decision-making:** LLM agents whose decisions follow human preferences and hold up under uncertainty.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.

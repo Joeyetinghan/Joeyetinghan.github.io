@@ -9,7 +9,7 @@ date: '2026-01-01T00:00:00Z'
 publishDate: '2026-01-01T00:00:00Z'
 publication_types: ['3']
 publication: 'Under review at Transportation Research Part E: Logistics and Transportation Review'
-publication_short: 'Under review at *Transportation Research Part E*'
+publication_short: 'Under review at Transportation Research Part E'
 abstract: ''
 summary: 'Extended journal version of the ICCL 2025 paper on conformal predictive distributions for order fulfillment.'
 tags: []
