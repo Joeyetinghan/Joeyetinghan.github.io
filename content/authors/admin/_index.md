@@ -14,14 +14,14 @@ organizations:
     # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D. candidate at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and LLM-assisted decision systems.
+bio: Ph.D. candidate at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and agentic OR.
 
 # Interests to show in About widget
 interests:
   - Contextual Optimization
   - Decision-Focused Learning
   - Sequential Decision-Making
-  - Agentic OR and LLM Agents
+  - Agentic OR
   - Logistics and Transportation
 
 # Education to show in About widget
@@ -84,8 +84,6 @@ My research develops optimization methods for large-scale operational decisions 
 
 - **Contextual decision-making under uncertainty:** integrating data and predictions into operational decisions made under uncertainty.
 
-- **Agentic OR:** LLM agents that build, solve, and adapt optimization models.
-
-- **Reliable LLM agents for decision-making:** LLM agents whose decisions follow human preferences and hold up under uncertainty.
+- **Agentic OR:** LLM agents that turn goals and preferences stated in natural language into optimization models, algorithms, and decisions, so that people without modeling expertise can use optimization.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.
