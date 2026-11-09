@@ -10,7 +10,7 @@ publication_types: ['1']
 publication: 'International Conference on Computational Logistics (ICCL 2025)'
 publication_short: 'ICCL 2025'
 abstract: ''
-summary: 'Accurate estimation of order fulfillment time under uncertainty for e-commerce logistics.'
+summary: 'Applies conformal predictive distributions to produce calibrated forecasts of order fulfillment time in e-commerce logistics.'
 tags: []
 featured: false
 weight: 5

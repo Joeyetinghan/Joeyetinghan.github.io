@@ -18,8 +18,6 @@ summary: 'Statistical tests showing that cardinal LLM preference judgments canno
 tags: []
 featured: false
 weight: 3
-research_theme: agentic
-theme_weight: 4
 url_pdf: 'https://arxiv.org/abs/2608.17644'
 url_code: ''
 url_dataset: ''

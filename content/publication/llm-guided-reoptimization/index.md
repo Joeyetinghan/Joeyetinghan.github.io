@@ -13,7 +13,7 @@ publication_types: ['3']
 publication: 'Under review at Management Science; preliminary version in NeurIPS 2026 ML×OR Workshop'
 publication_short: 'Under review at Management Science'
 abstract: ''
-summary: 'LLM-guided model patches and a re-optimization toolbox for adapting deployed large-scale optimization models.'
+summary: 'An LLM translates user requests into structured patches to a deployed optimization model, selects a re-optimization method, and solves the updated instance.'
 tags: []
 featured: true
 weight: 2

@@ -12,7 +12,7 @@ publication_types: ['3']
 publication: 'Working paper'
 publication_short: 'Working paper'
 abstract: ''
-summary: 'Decision-focused learning for contextual optimization problems driven by customer choice models.'
+summary: 'Extends decision-focused learning to contextual optimization problems in which demand follows a customer choice model.'
 tags: []
 featured: false
 weight: 1

@@ -14,7 +14,7 @@ publication_types: ['3']
 publication: 'Submitted to ICLR 2027'
 publication_short: 'Submitted to ICLR 2027'
 abstract: ''
-summary: 'Decision-focused on-policy learning for sequential contextual linear optimization under partial feedback.'
+summary: 'Learns a stochastic predict-then-optimize policy when only the outcome of the chosen decision is observed, using a hybrid of score-function and decision-focused gradient estimates.'
 tags: []
 featured: true
 weight: 2

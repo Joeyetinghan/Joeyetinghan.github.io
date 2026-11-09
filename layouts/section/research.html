@@ -1,31 +1,46 @@
 {{- define "main" -}}
 
 {{ $publication_pages := where site.RegularPages "Section" "publication" }}
-{{ $themes := slice
-  (dict "key" "learning" "title" "Learning-Augmented Optimization"
-        "desc" "Using machine learning to solve large-scale optimization problems faster.")
-  (dict "key" "contextual" "title" "Contextual Optimization and Decision-Focused Learning"
-        "desc" "Integrating data and predictions into operational decisions made under uncertainty.")
-  (dict "key" "agentic" "title" "Agentic Operations Research"
-        "desc" "Developing LLM-based agents that integrate natural-language understanding, optimization modeling, algorithm discovery, and interactive reasoning to automate and enhance complex decision-making, making advanced optimization accessible beyond modeling experts.")
-}}
 
 <div class="universal-wrapper pt-3">
   {{ with .Content }}
   <div class="article-style mt-3">{{ . }}</div>
   {{ end }}
 
-  {{ range $themes }}
+  {{ range $theme := .Params.themes }}
   {{ $items := sort (where $publication_pages "Params.research_theme" .key) "Params.theme_weight" }}
   <div class="article-style mt-5">
     <h2>{{ .title }}</h2>
     <p>{{ .desc }}</p>
   </div>
+  {{ with .figure }}
+  <figure class="research-figure">
+    <img src="{{ . | relURL }}" alt="Figure" loading="lazy"{{ with $theme.figure_width }} style="width: {{ . | safeCSS }}"{{ end }}>
+    {{ with $theme.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+  <h3 class="research-rep">Representative work</h3>
 
-  {{ range $index, $item := $items }}
-  {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
+  {{ range $items }}
+  <div class="research-paper mb-4">
+    <div class="research-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    <div class="research-meta">
+      {{ partial "page_metadata_authors" . }}{{ with .Params.publication_short }} &middot; <em>{{ . | markdownify }}</em>{{ end }}
+    </div>
+  </div>
   {{ end }}
   {{ end }}
 </div>
+
+<style>
+  .research-figure { margin: 1.25rem 0 1.5rem; text-align: center; }
+  .research-figure img { max-width: 100%; background: #fff; padding: .75rem; border-radius: 6px; }
+  @media (max-width: 768px) { .research-figure img { width: 100% !important; } }
+  .research-figure figcaption { font-size: .85rem; opacity: .75; margin-top: .5rem; }
+  .research-rep { font-size: 1rem; text-transform: uppercase; letter-spacing: .05em; opacity: .7; margin: 1rem 0 .75rem; }
+  .research-paper { padding-left: 1rem; border-left: 3px solid rgba(127,127,127,.3); }
+  .research-title { font-weight: 600; font-size: 1.05rem; }
+  .research-meta { margin-top: .15rem; font-size: .85rem; opacity: .75; }
+</style>
 
 {{- end -}}

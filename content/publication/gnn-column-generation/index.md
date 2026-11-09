@@ -11,12 +11,12 @@ publication_types: ['2']
 publication: 'Transportation Research Part E: Logistics and Transportation Review'
 publication_short: 'Transportation Research Part E'
 abstract: ''
-summary: 'Joint rider trip planning and crew scheduling for complex paratransit operations.'
+summary: 'Uses graph neural networks to accelerate column generation for a paratransit problem that plans rider trips and crew shifts jointly.'
 tags: []
 featured: true
 weight: 2
 research_theme: learning
-theme_weight: 1
+theme_weight: 2
 home_weight: 5
 url_pdf: 'https://doi.org/10.1016/j.tre.2025.104281'
 url_code: ''

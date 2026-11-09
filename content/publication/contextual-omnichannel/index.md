@@ -11,7 +11,7 @@ publication_types: ['2']
 publication: 'Manufacturing & Service Operations Management'
 publication_short: 'Manufacturing & Service Operations Management'
 abstract: ''
-summary: 'Data-driven fulfillment decisions under delivery time uncertainty.'
+summary: 'Selects fulfillment centers and carriers for a large U.S. e-commerce company by combining distributional forecasts of delivery time deviations with stochastic and robust optimization.'
 tags: []
 featured: true
 weight: 1

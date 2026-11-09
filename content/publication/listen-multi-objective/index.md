@@ -17,7 +17,7 @@ publication_types: ['1']
 publication: '35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)'
 publication_short: 'IJCAI-ECAI 2026'
 abstract: ''
-summary: 'An LLM-powered decision aid that captures qualitative preferences for multi-objective selection.'
+summary: 'Uses an LLM to elicit a decision-maker''s qualitative preferences in natural language and select among solutions that trade off multiple objectives.'
 tags: []
 featured: true
 weight: 2

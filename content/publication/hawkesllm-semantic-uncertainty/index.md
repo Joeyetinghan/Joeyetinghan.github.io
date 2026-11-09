@@ -14,8 +14,6 @@ summary: 'A Hawkes-process-guided framework for semantic uncertainty propagation
 tags: []
 featured: false
 weight: 4
-research_theme: agentic
-theme_weight: 5
 url_pdf: 'https://arxiv.org/abs/2605.23043'
 url_code: ''
 url_dataset: ''

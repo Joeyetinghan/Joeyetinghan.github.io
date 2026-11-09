@@ -11,7 +11,7 @@ publication_types: ['3']
 publication: 'Under review at Transportation Research Part E: Logistics and Transportation Review'
 publication_short: 'Under review at Transportation Research Part E'
 abstract: ''
-summary: 'Extended journal version of the ICCL 2025 paper on conformal predictive distributions for order fulfillment.'
+summary: 'Journal version of the ICCL 2025 paper, which feeds conformal forecasts of fulfillment time into contextual stochastic optimization of fulfillment decisions.'
 tags: []
 featured: true
 weight: 3
