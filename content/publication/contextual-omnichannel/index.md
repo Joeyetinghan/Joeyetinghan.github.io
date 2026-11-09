@@ -15,6 +15,8 @@ summary: 'Data-driven fulfillment decisions under delivery time uncertainty.'
 tags: []
 featured: true
 weight: 1
+research_theme: contextual
+theme_weight: 1
 home_weight: 1
 url_pdf: 'https://pubsonline.informs.org/doi/10.1287/msom.2024.1328'
 url_code: ''

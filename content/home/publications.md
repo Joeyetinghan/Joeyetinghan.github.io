@@ -9,8 +9,8 @@ content:
   count: 7
   archive:
     enable: true
-    text: See all research
-    link: research/
+    text: See all publications
+    link: publication/
   filters:
     author: ''
     category: ''

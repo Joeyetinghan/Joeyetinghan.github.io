@@ -14,14 +14,14 @@ organizations:
     # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D. candidate at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and agentic OR.
+bio: Ph.D. candidate at Georgia Tech ISyE working on contextual optimization, decision-focused learning, and agentic operations research.
 
 # Interests to show in About widget
 interests:
   - Contextual Optimization
   - Decision-Focused Learning
   - Sequential Decision-Making
-  - Agentic OR
+  - Agentic Operations Research
   - Logistics and Transportation
 
 # Education to show in About widget
@@ -78,12 +78,12 @@ highlight_name: true
 I am a Ph.D. candidate at Georgia Tech ISyE, where I am advised by Prof. [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/).
 Prior to joining Georgia Tech, I received my B.S. in Operations Research and Engineering at Cornell University. I was fortunate to work with Profs. [David Shmoys](https://people.orie.cornell.edu/shmoys/), [Shane Henderson](https://www.orie.cornell.edu/faculty-directory/shane-g-henderson), and [David Goldberg](https://www.engineering.cornell.edu/faculty-directory/david-alan-goldberg) at Cornell, as well as Prof. [Eleftheria Kontou](https://publish.illinois.edu/kontou/) at UIUC.
 
-My research develops optimization methods for large-scale operational decisions under uncertainty, primarily in logistics and transportation. A central question in my work is how machine learning can make these models faster and more reliable, so that they can be used in practice.
+My research develops optimization and machine learning methods for large-scale operational decisions, primarily in logistics and transportation. I aim to make these methods fast enough for large instances, reliable under uncertainty, and usable by decision-makers without modeling expertise. My work is organized around three themes:
 
 - **Learning-augmented optimization:** using machine learning to solve large-scale optimization problems faster.
 
-- **Contextual decision-making under uncertainty:** integrating data and predictions into operational decisions made under uncertainty.
+- **Contextual optimization and decision-focused learning:** integrating data and predictions into operational decisions made under uncertainty.
 
-- **Agentic OR:** developing LLM-based agents that integrate natural-language understanding, optimization modeling, algorithm discovery, and interactive reasoning to automate and enhance complex decision-making, making advanced optimization accessible beyond modeling experts.
+- **Agentic operations research:** developing LLM-based agents that integrate natural-language understanding, optimization modeling, algorithm discovery, and interactive reasoning to automate and enhance complex decision-making, making advanced optimization accessible beyond modeling experts.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Tinghan_Ye_CV.pdf" "newtab" >}}CV{{< /staticref >}}.

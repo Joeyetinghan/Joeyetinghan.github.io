@@ -17,6 +17,8 @@ summary: 'Learning optimization proxies for sequential contextual stochastic pro
 tags: []
 featured: true
 weight: 1
+research_theme: learning
+theme_weight: 2
 home_weight: 2
 url_pdf: 'https://arxiv.org/abs/2606.25362'
 url_code: 'https://github.com/Joeyetinghan/contextual-fulfillment-proxy'

@@ -1,43 +1,30 @@
 {{- define "main" -}}
 
 {{ $publication_pages := where site.RegularPages "Section" "publication" }}
-{{ $journal_pages := where $publication_pages "Params.publication_types" "intersect" (slice "2") }}
-{{ $conference_pages := where $publication_pages "Params.publication_types" "intersect" (slice "1") }}
-{{ $type3_pages := where $publication_pages "Params.publication_types" "intersect" (slice "3") }}
-{{ $under_review_pages := where $type3_pages "Params.under_review" true }}
-{{ $preprint_pages := where $type3_pages "Params.under_review" "!=" true }}
+{{ $themes := slice
+  (dict "key" "learning" "title" "Learning-Augmented Optimization"
+        "desc" "Using machine learning to solve large-scale optimization problems faster.")
+  (dict "key" "contextual" "title" "Contextual Optimization and Decision-Focused Learning"
+        "desc" "Integrating data and predictions into operational decisions made under uncertainty.")
+  (dict "key" "agentic" "title" "Agentic Operations Research"
+        "desc" "Developing LLM-based agents that integrate natural-language understanding, optimization modeling, algorithm discovery, and interactive reasoning to automate and enhance complex decision-making, making advanced optimization accessible beyond modeling experts.")
+}}
 
 <div class="universal-wrapper pt-3">
-  <div class="article-style mt-5">
-    <h2>Journal Articles</h2>
-  </div>
-
-  {{ range $index, $item := $journal_pages.ByWeight }}
-  {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
+  {{ with .Content }}
+  <div class="article-style mt-3">{{ . }}</div>
   {{ end }}
 
+  {{ range $themes }}
+  {{ $items := sort (where $publication_pages "Params.research_theme" .key) "Params.theme_weight" }}
   <div class="article-style mt-5">
-    <h2>Journal Papers Under Review</h2>
+    <h2>{{ .title }}</h2>
+    <p>{{ .desc }}</p>
   </div>
 
-  {{ range $index, $item := $under_review_pages.ByWeight }}
+  {{ range $index, $item := $items }}
   {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
   {{ end }}
-
-  <div class="article-style mt-5">
-    <h2>Conference Papers</h2>
-  </div>
-
-  {{ range $index, $item := $conference_pages.ByWeight }}
-  {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
-  {{ end }}
-
-  <div class="article-style mt-5">
-    <h2>Working Papers & Preprints</h2>
-  </div>
-
-  {{ range $index, $item := $preprint_pages.ByWeight }}
-  {{ partial "functions/render_view" (dict "page" $ "item" . "view" 4 "index" $index) }}
   {{ end }}
 </div>
 

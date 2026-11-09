@@ -14,6 +14,8 @@ summary: 'Accurate estimation of order fulfillment time under uncertainty for e-
 tags: []
 featured: false
 weight: 5
+research_theme: contextual
+theme_weight: 3
 url_pdf: 'https://arxiv.org/abs/2505.17340'
 url_code: ''
 url_dataset: ''

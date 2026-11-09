@@ -16,4 +16,6 @@ summary: 'Decision-focused learning for contextual optimization problems driven 
 tags: []
 featured: false
 weight: 1
+research_theme: contextual
+theme_weight: 5
 ---

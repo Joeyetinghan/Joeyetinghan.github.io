@@ -89,6 +89,8 @@ summary: 'A benchmark that measures whether curated Agent Skills improve LLM age
 tags: []
 featured: false
 weight: 1
+research_theme: agentic
+theme_weight: 3
 url_pdf: 'https://arxiv.org/abs/2602.12670'
 url_code: 'https://github.com/benchflow-ai/skillsbench'
 url_dataset: ''

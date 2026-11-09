@@ -14,4 +14,3 @@ header:
   caption: ''
   image: ''
 ---
-Peer-reviewed papers and preprints.

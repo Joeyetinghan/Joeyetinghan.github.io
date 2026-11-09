@@ -18,6 +18,8 @@ summary: 'Decision-focused on-policy learning for sequential contextual linear o
 tags: []
 featured: true
 weight: 2
+research_theme: contextual
+theme_weight: 4
 home_weight: 6
 url_pdf: 'https://arxiv.org/abs/2606.01081'
 url_code: 'https://github.com/Joeyetinghan/on-policy-bandit-dfl'

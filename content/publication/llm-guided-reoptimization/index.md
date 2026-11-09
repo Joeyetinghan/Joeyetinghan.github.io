@@ -17,6 +17,8 @@ summary: 'LLM-guided model patches and a re-optimization toolbox for adapting de
 tags: []
 featured: true
 weight: 2
+research_theme: agentic
+theme_weight: 1
 home_weight: 3
 url_pdf: 'https://arxiv.org/abs/2605.18692'
 url_code: ''

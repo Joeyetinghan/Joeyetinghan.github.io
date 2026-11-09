@@ -15,6 +15,8 @@ summary: 'Extended journal version of the ICCL 2025 paper on conformal predictiv
 tags: []
 featured: true
 weight: 3
+research_theme: contextual
+theme_weight: 2
 home_weight: 4
 url_pdf: ''
 url_code: ''
