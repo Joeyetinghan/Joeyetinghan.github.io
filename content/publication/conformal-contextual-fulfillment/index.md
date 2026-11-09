@@ -8,8 +8,8 @@ under_review: true
 date: '2026-01-01T00:00:00Z'
 publishDate: '2026-01-01T00:00:00Z'
 publication_types: ['3']
-publication: 'Under review at Transportation Research Part E: Logistics and Transportation Review'
-publication_short: 'Under review at Transportation Research Part E'
+publication: 'Under review at Transportation Research Part E: Logistics and Transportation Review; preliminary version in ICCL 2025'
+publication_short: 'Under review at Transportation Research Part E; preliminary version in ICCL 2025'
 abstract: ''
 summary: 'Journal version of the ICCL 2025 paper, which feeds conformal forecasts of fulfillment time into contextual stochastic optimization of fulfillment decisions.'
 tags: []
